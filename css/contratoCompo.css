@@ -19,3 +19,32 @@
     line-height: 1;
     transform: 2s ease-in;
 }
+
+.contatoCampo-checkbox:checked + .contatoCampo-label:before {
+    content: 'x';
+    color: #fff;
+    background-image: radial-gradient(cicle, #2da4e7, #2f80ed);
+}
+
+.contatoCampo-checkbox {
+    /*display: none*/
+    /*visibility: hidder*/
+    left: -9999px;
+    position: absolute;
+    opacity: 0;
+}
+
+.contatoCampo-icone {
+    position: absolute;
+    left: -2;
+    top: 2.5m;
+    width: 1.5em;
+}
+
+.contatoCampo label,
+.contatoCampo input: not([type='checkbox']),
+.contatoCampo textarea {
+    display : block;
+    width: 100%;
+    text-aling:left;
+}
