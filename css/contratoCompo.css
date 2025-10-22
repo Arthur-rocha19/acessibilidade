@@ -103,5 +103,18 @@
     position: absolute;
     z-index: 1;
     transform: translateY(112%) scale(.65);
-    background-image: url(../img/);
+    background-image: url(../img/validacao-sucesso.png);
 }
+
+.contatoCampo--sucesso::before {
+    content: '';
+    display: inline-block;
+    width: 33px;
+    height: 32px;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(112%) scale(.65);
+    background-image: url(../img/validacao-erro.png);
+}
+
+
